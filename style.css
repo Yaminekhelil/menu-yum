@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: "Bebas Neue", sans-serif;
+    --main-color: #c0463d;
+    --secondary-color: #000;
+    --third-color: #f1f1f1;
+    --fourth-color: #fff;
+
+
+
+
+}
+
+
+body {
+    margin: 0 10%;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 150px;
+    background-color: var(--third-color);
+
+}
+
+.logo {
+    width: 200px;
+
+}
+
+.lien {
+    color: var(--secondary-color);
+    font-family: var(--font-secondary);
+    text-decoration: none;
+    font-size: 40px;
+
+
+
+}
+
+.active {
+    text-decoration: underline var(--main-color);
+}
+
+.h1 {
+    font-family: var(--font-secondary);
+    font-size: 50px;
+}
+
+.p1 {
+    font-family: var(--font-primary);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    font-size: 30px;
+    padding: 10px 50px;
+    font-family: var(--font-secondary);
+    margin-top: 20px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    background-color: var(--third-color);
+}
+
+.div1 {
+    width: 50%;
+    padding: 100px;
+}
+
+.div2 {
+    width: 50%;
+    text-align: center;
+}
+
+.h2 {
+    text-decoration: underline var(--main-color);
+    font-family: var(--font-secondary);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.section2 {
+    background-color: var(--third-color);
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.yum {
+    font-family: var(--font-secondary);
+}
+
+.button2 {
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    font-family: var(--font-secondary);
+    padding: 10px 50px;
+    font-size: 30px;
+    margin: 15px;
+
+}
+
+.section3 {
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 220px;
+}
+
+.divr {
+    text-align: center;
+    padding: 50px;
+}
+
+.commandez {
+    color: var(--fourth-color);
+    font-size: 20px;
+    font-family: var(--font-primary);
+}
+
+.section4 {
+    background-color: var(--third-color);
+}
+
+.h3 {
+    text-decoration: underline var(--main-color);
+    font-family: var(--font-secondary);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.divs4 {
+    font-size: 25px;
+    margin: 0 100px;
+}
+
+.h4 {
+    text-decoration: underline var(--main-color);
+    font-family: var(--font-secondary);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+}
+
+.divimage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 0 300px;
+}
+
+.img {
+    aspect-ratio: 1/1;
+    flex: calc(100%/4);
+}
+
+.h5 {
+    text-decoration: underline var(--main-color);
+    font-family: var(--font-secondary);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+}
+
+.divh5 {
+    text-align: center;
+}
+
+.ph5 {
+    font-size: 25px;
+    margin: 0 100px;
+}
+
+.p2h5 {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--secondary-color);
+    height: 200px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 80px;
+}
+
+.section7 {
+    background-color: var(--third-color);
+    display: flex;
+}
+
+.div7 {
+    width: 40%;
+    padding: 20px 100px;
+
+
+}
+
+.p6 {
+    font-size: 60px;
+    font-family: var(--font-secondary);
+    margin-bottom: 20px;
+}
+
+.p7 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    border-left: solid 2px var(--main-color);
+    padding-left: 5px;
+}
+
+.p8 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.p9 {
+    font-size: 28px;
+}
+
+.div8 {
+    width: 60%;
+
+}
+
+.img7 {
+    width: 100%;
+}
+
+.section8 {
+    background-color: var(--third-color);
+    padding: 20px 150px;
+}
+
+.hmenu {
+    font-family: var(--font-secondary);
+    font-size: 50px;
+}
+
+.red {
+    color: var(--main-color);
+}
+
+.pmenu {
+    font-size: 25px;
+    font-family: var(--font-primary);
+}
+
+.divmenu {
+    background-color: var(--fourth-color);
+    text-align: center;
+}
+
+.logo9 {
+    width: 140px;
+    padding-top: 70px;
+}
+
+.entrees {
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: var(--font-secondary);
+    text-decoration: underline var(--main-color);
+}
+
+.plat1 {
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.plat2 {
+    padding-top: 10px;
+}
+
+.plat {
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: var(--font-secondary);
+    text-decoration: underline var(--main-color);
+
+}
+
+.desserts {
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: var(--font-secondary);
+    text-decoration: underline var(--main-color);
+}
+
+.boisson {
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: var(--font-secondary);
+    text-decoration: underline var(--main-color);
+}
+
+.boisson2 {
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 0 5%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .lien {
+        font-size: 30px;
+    }
+
+    .h1 {
+        font-size: 40px;
+    }
+
+    .p1 {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 10px 30px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div1,
+    .div2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .h2 {
+        font-size: 30px;
+    }
+
+    .photo {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .button2 {
+        font-size: 25px;
+    }
+
+    .section3 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .divimage {
+        margin: 0 20px;
+    }
+
+    .img {
+        flex: calc(100% / 2);
+        aspect-ratio: 1 / 1;
+    }
+
+    .hmenu {
+        font-size: 40px;
+    }
+
+    .divmenu {
+        padding: 20px;
+    }
+
+    .plat,
+    .entrees,
+    .desserts,
+    .boisson {
+        font-size: 18px;
+    }
+
+    .div7 {
+        padding: 10px;
+    }
+
+    .p6 {
+        font-size: 40px;
+    }
+
+    .p7,
+    .p8,
+    .p9 {
+        font-size: 20px;
+    }
+
+    .section8 {
+        padding: 10px;
+    }
+}
